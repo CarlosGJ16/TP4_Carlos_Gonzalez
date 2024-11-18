@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="css/principal.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body onload="mostrarMensajeBienvenida()">
+    <h1>Página Principal</h1>
+    <p>Bienvenido a mi página web. Aquí puedes navegar por las diferentes secciones de mi página:</p>
+    <ul>
+        <li>Galeria de imagenes: Galería de imágenes con interacciones especiales.</li>
+        <li>Operaciones: Tabla interactiva con operaciones matemáticas.</li>
+    </ul>
+
+    <p id="saludo"></p> <!-- Elemento para mostrar el saludo -->
+
+    <div class="buttons">
+        <button onclick="window.location.href='pagina2.html'">Ir a Galería</button>
+        <button onclick="window.location.href='pagina3.html'">Ir a Operaciones</button>
+    </div>
+</body>
+</html>
+
